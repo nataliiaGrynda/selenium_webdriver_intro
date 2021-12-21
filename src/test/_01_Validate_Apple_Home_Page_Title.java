@@ -3,11 +3,11 @@ package test;
 import org.openqa.selenium.WebDriver;
 import utils.Driver;
 
-public class _01_Validate_Apple_Web_Page_Title {
+public class _01_Validate_Apple_Home_Page_Title {
     /*
     TEST CASE
-    Go to "https://www.apple.com/"
-    Validate title of the page is displayed as "Apple"
+    1. Go to "https://www.apple.com/"
+    2. Validate the title of the page is displayed as "Apple"
 
     NOTE:
     The <title></title> tag defines the title of the HTML document, and it goes into <head></head> tag
@@ -19,10 +19,10 @@ public class _01_Validate_Apple_Web_Page_Title {
         // 1. Use Driver util method - getDriver() to set driver to be used for the script
         WebDriver driver = Driver.getDriver();
 
-        // 2. Navigate to "https://www.apple.com/" using get() method
+        // 2. Navigate to the "https://www.apple.com/" using get() method
         driver.get("https://www.apple.com/");
 
-        // 3. Check if actual title displayed on the page is equal to expected title
+        // 3. Check if the actual title displayed on the page is equal to the expected title
         String expectedTitle = "Apple";
         String actualTitle = driver.getTitle();
 
