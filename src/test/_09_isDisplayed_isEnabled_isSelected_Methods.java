@@ -16,7 +16,7 @@ public class _09_isDisplayed_isEnabled_isSelected_Methods {
     1. Go to "https://www.united.com/en/us"
     2. Validate the "UNITED" logo is displayed
     3. Validate the "Round trip" radio button is selected by default
-    3. Validate the "Find flights" button is enabled by default
+    4. Validate the "Find flights" button is enabled by default
      */
 
     public static void main(String[] args) {
