@@ -21,7 +21,6 @@ public class _10_findElement_findElements_Methods {
     2. Validate the first primary language link is "English ..."
     3. Validate there are 10 primary languages displayed around the wiki image logo
      */
-
     public static void main(String[] args) {
         // 1. Use Driver util method - getDriver() to set driver to be used for the script
         WebDriver driver = Driver.getDriver();

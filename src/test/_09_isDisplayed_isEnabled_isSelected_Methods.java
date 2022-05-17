@@ -18,7 +18,6 @@ public class _09_isDisplayed_isEnabled_isSelected_Methods {
     3. Validate the "Round trip" radio button is selected by default
     4. Validate the "Find flights" button is enabled by default
      */
-
     public static void main(String[] args) {
         // 1. Use Driver util method - getDriver() to set driver to be used for the script
         WebDriver driver = Driver.getDriver();

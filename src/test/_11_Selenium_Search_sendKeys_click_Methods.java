@@ -18,7 +18,6 @@ public class _11_Selenium_Search_sendKeys_click_Methods {
     -sendKeys() method: this method is used to type in a located input web element
     -getText() method: this method is used to get the inner text of a located web element
      */
-
     public static void main(String[] args) throws InterruptedException {
         // 1. Use Driver util method - getDriver() to set driver to be used for the script
         WebDriver driver = Driver.getDriver();
